@@ -50,22 +50,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClientesDTO.cs" />
-    <Compile Include="CompraDTO.cs" />
-    <Compile Include="DireccionDTO.cs" />
-    <Compile Include="LocalidadDTO.cs" />
-    <Compile Include="Migrations\201905240029467_Web.cs" />
-    <Compile Include="Migrations\201905240029467_Web.Designer.cs">
-      <DependentUpon>201905240029467_Web.cs</DependentUpon>
+    <Compile Include="DTO\ClientesDTO.cs" />
+    <Compile Include="DTO\VoucherDTO.cs" />
+    <Compile Include="Migrations\201905250040047_web.cs" />
+    <Compile Include="Migrations\201905250040047_web.Designer.cs">
+      <DependentUpon>201905250040047_web.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelContexto.cs" />
-    <Compile Include="PersonaDTO.cs" />
-    <Compile Include="PremiosDTO.cs" />
+    <Compile Include="DTO\PremiosDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ProvinciaDTO.cs" />
-    <Compile Include="SorteoDTO.cs" />
-    <Compile Include="TelefonoDTO.cs" />
+    <Compile Include="DTO\SorteoDTO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
@@ -78,14 +73,14 @@
       <Project>{64fac4e5-73f2-458a-a818-7edfc2386971}</Project>
       <Name>Dominio</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TP_WEB_MERCADO_GARCIA\TP_WEB_MERCADO_GARCIA.csproj">
+    <ProjectReference Include="..\TP_WEB_MERCADO_GARCIA\PresentacionWeb.csproj">
       <Project>{79db468c-3fb5-46b5-9d2f-f7b9b1ef62a9}</Project>
-      <Name>TP_WEB_MERCADO_GARCIA</Name>
+      <Name>PresentacionWeb</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201905240029467_Web.resx">
-      <DependentUpon>201905240029467_Web.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201905250040047_web.resx">
+      <DependentUpon>201905250040047_web.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

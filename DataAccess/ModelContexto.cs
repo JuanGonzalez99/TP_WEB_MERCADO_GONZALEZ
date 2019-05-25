@@ -18,14 +18,10 @@
         {
         }
 
-        public DbSet<Clientes> Clientes { get; set; }
-        public DbSet<Compra> Compra { get; set; }
-        public DbSet<Localidad> Localidad { get; set; }
-        public DbSet<Direccion> Direccion { get; set; }
-        public DbSet<Telefono> Telefono { get; set; }
-        public DbSet<Provincia> Provincia { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Voucher> Voucher { get; set; }
         public DbSet<Sorteo> Sorteo { get; set; }
-        public DbSet<Premios> Premios { get; set; }
+        public DbSet<Premio> Premios { get; set; }
 
 
 

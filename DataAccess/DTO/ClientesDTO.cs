@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 using Dominio;
 namespace AccesoDatos
 {
-    public class ClientesDTO : PersonaDTO
+    public class ClientesDTO
     {
         public int Clienteid { get; set; }
+        public string Nombre { get; set; } // nombre 
+        public string Apellido { get; set; } // apellido
+        public int tipoDocumento { get; set; } // 1 - Cuit 2 - DNI 
+        public string Documento { get; set; } // puede set cuit y dni dependiento de tipodocumento
+
         private ModelContexto db = new ModelContexto();
 
 
@@ -21,12 +26,9 @@ namespace AccesoDatos
                     select new ClientesDTO
                     {
                         Clienteid = client.Clienteid,
-                        nombre = client.nombre,
+                        Nombre = client.Nombre,
                         Apellido = client.Apellido,
-                        Direccionid = client.Direccionid,
-                        Documento = client.Documento,                        
-                        TelefonoId = client.TelefonoId,
-                        Descripcion = client.Descripcion
+                        Documento = client.Documento
                     }).ToList();
             }
         }
@@ -36,17 +38,14 @@ namespace AccesoDatos
             using (db)
             {
                 var query = from Cliente in db.Clientes select Cliente;
-                List<Clientes> clientes = query.ToList<Clientes>();
+                List<Cliente> clientes = query.ToList<Cliente>();
                 foreach (var foo in clientes)
                 {
                     if (foo.Clienteid == idClient)
                         Clienteid = foo.Clienteid;
-                    nombre = foo.nombre;
+                    Nombre = foo.Nombre;
                     Apellido = foo.Apellido;
-                    Direccionid = foo.Direccionid;
                     Documento = foo.Documento;                    
-                    TelefonoId = foo.TelefonoId;
-                    Descripcion = foo.Descripcion;
                 }
             }
         }
@@ -54,28 +53,25 @@ namespace AccesoDatos
 
         public int addCliente()
         {
-            Clientes cliente = new Clientes();
-            cliente.TelefonoId = telefono.addTelefono();
-            cliente.Direccionid = direccion.addDireccion();            
-            cliente.nombre = this.nombre;
+            Cliente cliente = new Cliente();
+            cliente.Nombre = this.Nombre;
             cliente.Apellido = this.Apellido;
             cliente.Documento = this.Documento;
-            cliente.Descripcion = this.Descripcion;
             using (var db = new ModelContexto())
             {
                 db.Clientes.Add(cliente);
                 db.SaveChanges();
                 var query = from dir in db.Clientes
                             orderby dir.Clienteid descending
-                            where  dir.nombre == cliente.nombre
-                            && dir.Apellido == cliente.Apellido && dir.Direccionid == dir.Direccionid &&
-                            dir.Documento == cliente.Documento
+                            where  dir.Nombre == cliente.Nombre
+                            && dir.Apellido == cliente.Apellido 
+                            && dir.Documento == cliente.Documento
                             select dir;
-                cliente = query.FirstOrDefault<Clientes>();
+                cliente = query.FirstOrDefault<Cliente>();
 
-                if ( cliente.nombre == this.nombre
-                    && cliente.Apellido == this.Apellido && cliente.Direccionid == cliente.Direccionid &&
-                    cliente.Documento == this.Documento)
+                if ( cliente.Nombre == this.Nombre
+                    && cliente.Apellido == this.Apellido 
+                    && cliente.Documento == this.Documento)
                 {
                     return cliente.Clienteid;
                 }

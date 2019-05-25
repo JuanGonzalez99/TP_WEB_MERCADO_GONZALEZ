@@ -7,13 +7,13 @@ namespace AccesoDatos.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class Web : IMigrationMetadata
+    public sealed partial class web : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Web));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(web));
         
         string IMigrationMetadata.Id
         {
-            get { return "201905240029467_Web"; }
+            get { return "201905250040047_web"; }
         }
         
         string IMigrationMetadata.Source

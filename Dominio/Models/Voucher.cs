@@ -8,14 +8,16 @@ using System.Threading.Tasks;
 
 namespace Dominio
 {
-    [Table("Compra")]
-    public class Compra
+    [Table("Voucher")]
+    public class Voucher
     {
         [Key]
-        public int IdCompra { get; set; }
+        public int IdVoucher { get; set; }
+
         [Required]
         [MaxLength(100)]
-        public string CodigoPromocional { get; set; } // Se genera Fecha+horaMinutosSegundos+IdCompra
-        public bool estado { get; set; } // 0 no valido 1 usado
+        public string CodigoPromocional { get; set; } // Se genera Fecha+horaMinutosSegundos+IdVoucher
+        
+        public bool Estado { get; set; } // 1 = usado
     }
 }

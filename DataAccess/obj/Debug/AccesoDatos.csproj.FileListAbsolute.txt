@@ -72,3 +72,29 @@ C:\Users\UTNfr\source\TP_WEB_MERCADO_GARCIA\DataAccess\bin\Debug\es\Microsoft.As
 C:\Users\UTNfr\source\TP_WEB_MERCADO_GARCIA\DataAccess\obj\Debug\AccesoDatos.csproj.CopyComplete
 C:\Users\UTNfr\source\TP_WEB_MERCADO_GARCIA\DataAccess\obj\Debug\AccesoDatos.Migrations.Web.resources
 C:\Users\UTNfr\source\TP_WEB_MERCADO_GARCIA\DataAccess\obj\Debug\AccesoDatos.csproj.GenerateResource.cache
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\AccesoDatos.dll.config
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\AccesoDatos.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\AccesoDatos.pdb
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\Dominio.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\TP_WEB_MERCADO_GARCIA.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\System.Web.Optimization.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\Dominio.pdb
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\TP_WEB_MERCADO_GARCIA.pdb
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\TP_WEB_MERCADO_GARCIA.dll.config
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\System.Web.Optimization.xml
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\es\System.Web.Optimization.resources.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\bin\Debug\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\obj\Debug\AccesoDatos.csprojAssemblyReference.cache
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\obj\Debug\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\obj\Debug\AccesoDatos.csproj.CopyComplete
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\obj\Debug\AccesoDatos.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\obj\Debug\AccesoDatos.pdb
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\obj\Debug\AccesoDatos.Migrations.web.resources
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\DataAccess\obj\Debug\AccesoDatos.csproj.GenerateResource.cache

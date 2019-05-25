@@ -10,9 +10,9 @@ namespace AccesoDatos
     public class SorteoDTO
     {
         int IdSorteo { get; set; }
-        int IdPremios { get; set; }
-        int IdClientes { get; set; }
-        int IdCompra { get; set; }
+        int IdPremio { get; set; }
+        int IdCliente { get; set; }
+        int IdVoucher { get; set; }
 
         private ModelContexto db = new ModelContexto();
 

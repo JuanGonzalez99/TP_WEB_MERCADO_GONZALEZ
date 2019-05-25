@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP_WEB_MERCADO_GARCIA", "TP_WEB_MERCADO_GARCIA\TP_WEB_MERCADO_GARCIA.csproj", "{79DB468C-3FB5-46B5-9D2F-F7B9B1EF62A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentacionWeb", "TP_WEB_MERCADO_GARCIA\PresentacionWeb.csproj", "{79DB468C-3FB5-46B5-9D2F-F7B9B1EF62A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{190820A3-CFF9-46E1-8D94-81A6F2847F52}"
 EndProject

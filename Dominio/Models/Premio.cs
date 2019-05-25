@@ -9,12 +9,17 @@ using System.Threading.Tasks;
 namespace Dominio
 {
     [Table("Premios")]
-    public class Premios
+    public class Premio
     {
         [Key]
         public int IdPremio { get; set; }
+
         [Required]
         [MaxLength(100)]
         public String Descripcion { get; set; }
+
+        [Required]
+        [MaxLength(255)]
+        public string URL { get; set; }
     }
 }
