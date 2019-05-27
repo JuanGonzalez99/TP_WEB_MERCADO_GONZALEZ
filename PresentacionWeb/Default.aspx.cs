@@ -13,5 +13,14 @@ namespace PresentacionWeb
         {
 
         }
+
+        protected void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            //VoucherNegocio v = new VoucherNegocio();
+            //v.GetVoucherByCode(txtVoucher.Text);
+            //Validar voucher
+            Session.Add("voucher", txtVoucher.Text);
+            Response.Redirect("~/Premios.aspx");
+        }
     }
 }

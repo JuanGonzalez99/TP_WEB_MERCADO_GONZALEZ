@@ -2,12 +2,13 @@
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
 <head runat="server">
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Mi aplicación ASP.NET</title>
+    <title><%: Page.Title %> - Super sorteo</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -21,16 +22,8 @@
     <link href="SmartWizard/css/smart_wizard_theme_arrows.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="SmartWizard/js/jquery.smartWizard.min.js"></script>
 
-
-
 </head>
 <body>
-    <%--<script type="text/javascript">
-    $(document).ready(function(){
-            $('#smartwizard').smartWizard();
-        }
-    );
-    </script>--%>
 
     <form runat="server">
         <asp:ScriptManager runat="server">
@@ -61,14 +54,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Nombre de la aplicación</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Inicio</a></li>
-                        <li><a runat="server" href="~/About">Acerca de</a></li>
-                        <li><a runat="server" href="~/Contact">Contacto</a></li>
-                    </ul>
+                    <a class="navbar-brand" runat="server" href="~/">Promo comprá y ganá!</a>
                 </div>
             </div>
         </div>
@@ -77,185 +63,10 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET</p>
+                <p>&copy; Gonzalez Juan y Mercado Sebastián - TP Web Programación III - 1C 2019</p>
             </footer>
         </div>
-
     </form>
-    <%--<div class="container">
-        <!-- External toolbar sample -->
-        <div class="row d-flex align-items-center p-3 my-3 text-white-50">
-            <div class="col-12 col-lg-6 col-sm-12">
-                <label>Theme:</label>
-                <select id="theme_selector" class="custom-select col-lg-6 col-sm-12">
-                    <option value="default">default</option>
-                    <option value="arrows">arrows</option>
-                    <option value="circles">circles</option>
-                    <option value="dots">dots</option>
-                </select>
-            </div>
-            <div class="col-12 col-lg-6 col-sm-12">
-                <label>External Buttons:</label>
-                <div class="btn-group col-lg-6 col-sm-12" role="group">
-                    <button class="btn btn-secondary disabled" id="prev-btn" type="button">Go Previous</button>
-                    <button class="btn btn-secondary" id="next-btn" type="button">Go Next</button>
-                    <button class="btn btn-danger" id="reset-btn" type="button">Reset Wizard</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- SmartWizard html -->
-        <div id="smartwizard" class="sw-main sw-theme-default">
-            <ul class="nav nav-tabs step-anchor">
-                <li class="nav-item active"><a href="#step-1" class="nav-link">Step 1<br>
-                    <small>This is step description</small></a></li>
-                <li class="nav-item"><a href="#step-2" class="nav-link">Step 2<br>
-                    <small>This is step description</small></a></li>
-                <li class="nav-item"><a href="#step-3" class="nav-link">Step 3<br>
-                    <small>This is step description</small></a></li>
-                <li class="nav-item"><a href="#step-4" class="nav-link">Step 4<br>
-                    <small>This is step description</small></a></li>
-            </ul>
-
-            <div class="btn-toolbar sw-toolbar sw-toolbar-top justify-content-end">
-                <div class="btn-group mr-2 sw-btn-group" role="group">
-                    <button class="btn btn-secondary sw-btn-prev disabled" type="button">Previous</button>
-                    <button class="btn btn-secondary sw-btn-next" type="button">Next</button></div>
-                <div class="btn-group mr-2 sw-btn-group-extra" role="group">
-                    <button class="btn btn-info">Finish</button>
-                    <button class="btn btn-danger">Cancel</button></div>
-            </div>
-            <div class="sw-container tab-content" style="min-height: 166px;">
-                <div id="step-1" class="tab-pane step-content" style="display: block;">
-                    <h3 class="border-bottom border-gray pb-2">Step 1 Content</h3>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </div>
-                <div id="step-2" class="tab-pane step-content">
-                    <h3 class="border-bottom border-gray pb-2">Step 2 Content</h3>
-                    <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </div>
-                </div>
-                <div id="step-3" class="tab-pane step-content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </div>
-                <div id="step-4" class="tab-pane step-content">
-                    <h3 class="border-bottom border-gray pb-2">Step 4 Content</h3>
-                    <div class="card">
-                        <div class="card-header">My Details</div>
-                        <div class="card-block p-0">
-                            <table class="table">
-                                <tbody>
-                                    <tr>
-                                        <th>Name:</th>
-                                        <td>Tim Smith</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Email:</th>
-                                        <td>example@example.com</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="btn-toolbar sw-toolbar sw-toolbar-bottom justify-content-end">
-                <div class="btn-group mr-2 sw-btn-group" role="group">
-                    <button class="btn btn-secondary sw-btn-prev disabled" type="button">Previous</button>
-                    <button class="btn btn-secondary sw-btn-next" type="button">Next</button></div>
-                <div class="btn-group mr-2 sw-btn-group-extra" role="group">
-                    <button class="btn btn-info">Finish</button>
-                    <button class="btn btn-danger">Cancel</button></div>
-            </div>
-        </div>
-
-
-    </div>
-
-    <!-- Include jQuery -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <!-- Include SmartWizard JavaScript source -->
-    <script type="text/javascript" src="../dist/js/jquery.smartWizard.min.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-
-            // Step show event
-            $("#smartwizard").on("showStep", function (e, anchorObject, stepNumber, stepDirection, stepPosition) {
-                //alert("You are on step "+stepNumber+" now");
-                if (stepPosition === 'first') {
-                    $("#prev-btn").addClass('disabled');
-                } else if (stepPosition === 'final') {
-                    $("#next-btn").addClass('disabled');
-                } else {
-                    $("#prev-btn").removeClass('disabled');
-                    $("#next-btn").removeClass('disabled');
-                }
-            });
-
-            // Toolbar extra buttons
-            var btnFinish = $('<button></button>').text('Finish')
-                .addClass('btn btn-info')
-                .on('click', function () { alert('Finish Clicked'); });
-            var btnCancel = $('<button></button>').text('Cancel')
-                .addClass('btn btn-danger')
-                .on('click', function () { $('#smartwizard').smartWizard("reset"); });
-
-
-            // Smart Wizard
-            $('#smartwizard').smartWizard({
-                selected: 0,
-                theme: 'default',
-                transitionEffect: 'fade',
-                showStepURLhash: true,
-                toolbarSettings: {
-                    toolbarPosition: 'both',
-                    toolbarButtonPosition: 'end',
-                    toolbarExtraButtons: [btnFinish, btnCancel]
-                }
-            });
-
-
-            // External Button Events
-            $("#reset-btn").on("click", function () {
-                // Reset wizard
-                $('#smartwizard').smartWizard("reset");
-                return true;
-            });
-
-            $("#prev-btn").on("click", function () {
-                // Navigate previous
-                $('#smartwizard').smartWizard("prev");
-                return true;
-            });
-
-            $("#next-btn").on("click", function () {
-                // Navigate next
-                $('#smartwizard').smartWizard("next");
-                return true;
-            });
-
-            $("#theme_selector").on("change", function () {
-                // Change theme
-                $('#smartwizard').smartWizard("theme", $(this).val());
-                return true;
-            });
-
-            // Set selected theme on page refresh
-            $("#theme_selector").change();
-        });
-    </script>--%>
-
+    
 </body>
 </html>
