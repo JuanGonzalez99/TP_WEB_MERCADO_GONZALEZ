@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentacionWeb", "TP_WEB_MERCADO_GARCIA\PresentacionWeb.csproj", "{79DB468C-3FB5-46B5-9D2F-F7B9B1EF62A9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{190820A3-CFF9-46E1-8D94-81A6F2847F52}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "DataAccess\AccesoDatos.csproj", "{8C807A8B-6AF4-4713-BEA1-AF7014C7CBB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentacionWeb", "PresentacionWeb\PresentacionWeb.csproj", "{9AB90652-2A84-41DC-B895-09B69E06A905}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{79DB468C-3FB5-46B5-9D2F-F7B9B1EF62A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79DB468C-3FB5-46B5-9D2F-F7B9B1EF62A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79DB468C-3FB5-46B5-9D2F-F7B9B1EF62A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79DB468C-3FB5-46B5-9D2F-F7B9B1EF62A9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{190820A3-CFF9-46E1-8D94-81A6F2847F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{190820A3-CFF9-46E1-8D94-81A6F2847F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{190820A3-CFF9-46E1-8D94-81A6F2847F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{8C807A8B-6AF4-4713-BEA1-AF7014C7CBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C807A8B-6AF4-4713-BEA1-AF7014C7CBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C807A8B-6AF4-4713-BEA1-AF7014C7CBB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AB90652-2A84-41DC-B895-09B69E06A905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB90652-2A84-41DC-B895-09B69E06A905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB90652-2A84-41DC-B895-09B69E06A905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB90652-2A84-41DC-B895-09B69E06A905}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

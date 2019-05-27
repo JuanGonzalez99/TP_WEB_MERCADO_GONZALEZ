@@ -73,10 +73,6 @@
       <Project>{64fac4e5-73f2-458a-a818-7edfc2386971}</Project>
       <Name>Dominio</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TP_WEB_MERCADO_GARCIA\PresentacionWeb.csproj">
-      <Project>{79db468c-3fb5-46b5-9d2f-f7b9b1ef62a9}</Project>
-      <Name>PresentacionWeb</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201905250040047_web.resx">
