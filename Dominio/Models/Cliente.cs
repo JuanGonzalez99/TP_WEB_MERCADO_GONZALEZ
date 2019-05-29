@@ -34,6 +34,9 @@ namespace Dominio
 
         [MaxLength(100)]
         public string Direccion { get; set; }
+        [Required]
+        [MaxLength(100)]
+        public string email { get; set; }
 
     }
 }
