@@ -10,24 +10,15 @@
 namespace PresentacionWeb {
     
     
-    public partial class _Default {
+    public partial class Registro {
         
         /// <summary>
-        /// Control txtVoucher.
+        /// Control txtDNI.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtVoucher;
-        
-        /// <summary>
-        /// Control btnSiguiente.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSiguiente;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txtDNI;
     }
 }

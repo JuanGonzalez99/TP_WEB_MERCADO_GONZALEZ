@@ -17,10 +17,13 @@
     <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
-    <!-- SmartWizard -->
-    <link href="SmartWizard/css/smart_wizard.css" rel="stylesheet" type="text/css" />
-    <link href="SmartWizard/css/smart_wizard_theme_arrows.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="SmartWizard/js/jquery.smartWizard.min.js"></script>
+<%--    <link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        body {
+            font-family:'Mukta', sans-serif;
+        }
+    </style>--%>
 
 </head>
 <body>

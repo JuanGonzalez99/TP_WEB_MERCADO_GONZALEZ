@@ -19,8 +19,21 @@ namespace PresentacionWeb
             //VoucherNegocio v = new VoucherNegocio();
             //v.GetVoucherByCode(txtVoucher.Text);
             //Validar voucher
-            Session.Add("voucher", txtVoucher.Text);
-            Response.Redirect("~/Premios.aspx");
+            if (txtVoucher.Value == "hola")
+            {
+                Session.Add("voucher2", txtVoucher.Value);
+                Response.Redirect("~/Premios.aspx");
+            }
+            else
+            {
+
+            }
+        }
+
+        public void funcion()
+        {
+            string x = "hola";
+            x += " y chau";
         }
     }
 }
