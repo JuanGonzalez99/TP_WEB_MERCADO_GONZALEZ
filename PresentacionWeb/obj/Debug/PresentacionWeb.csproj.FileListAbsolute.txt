@@ -1,0 +1,416 @@
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\PresentacionWeb.dll.config
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\PresentacionWeb.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\PresentacionWeb.pdb
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\csc.exe
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\csc.exe.config
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\csc.rsp
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\csi.exe
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\csi.exe.config
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\csi.rsp
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Console.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Security.Claims.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\vbc.exe
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\vbc.exe.config
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\vbc.rsp
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Antlr3.Runtime.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Newtonsoft.Json.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\System.Web.Optimization.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\WebGrease.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\System.Web.Optimization.xml
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Newtonsoft.Json.xml
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\obj\Debug\PresentacionWeb.csprojAssemblyReference.cache
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\obj\Debug\PresentacionWeb.csproj.CoreCompileInputs.cache
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\obj\Debug\PresentacionWeb.csproj.CopyComplete
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\obj\Debug\PresentacionWeb.dll
+C:\Users\Juan\UTN-TSP\3C\Programación III\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\obj\Debug\PresentacionWeb.pdb
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\PresentacionWeb.dll.config
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\PresentacionWeb.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\PresentacionWeb.pdb
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csc.exe
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csc.exe.config
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csc.rsp
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csi.exe
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csi.exe.config
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csi.rsp
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.AppContext.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Console.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.Pipes.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Claims.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\vbc.exe
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\vbc.exe.config
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\vbc.rsp
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Antlr3.Runtime.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Newtonsoft.Json.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\System.Web.Optimization.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\WebGrease.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\System.Web.Optimization.xml
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Newtonsoft.Json.xml
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Antlr3.Runtime.pdb
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.csprojAssemblyReference.cache
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.csproj.CoreCompileInputs.cache
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.csproj.CopyComplete
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.dll
+C:\Users\UTNfr\Desktop\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.pdb
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\PresentacionWeb.dll.config
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\PresentacionWeb.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\PresentacionWeb.pdb
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\csc.exe
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\csc.exe.config
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\csc.rsp
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\csi.exe
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\csi.exe.config
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\csi.rsp
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Console.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Security.Claims.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\vbc.exe
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\vbc.exe.config
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\vbc.rsp
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Antlr3.Runtime.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Negocio.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Newtonsoft.Json.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\System.Web.Optimization.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\WebGrease.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\AccesoDatos.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Dominio.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\EntityFramework.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Negocio.pdb
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\System.Web.Optimization.xml
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Newtonsoft.Json.xml
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\AccesoDatos.pdb
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\AccesoDatos.dll.config
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\Dominio.pdb
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\EntityFramework.xml
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\obj\Debug\PresentacionWeb.csprojAssemblyReference.cache
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\obj\Debug\PresentacionWeb.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\obj\Debug\PresentacionWeb.csproj.CopyComplete
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\obj\Debug\PresentacionWeb.dll
+C:\Users\Juan\Desktop\TP_WEB_MERCADO_GONZALEZ\PresentacionWeb\obj\Debug\PresentacionWeb.pdb
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\PresentacionWeb.dll.config
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\PresentacionWeb.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\PresentacionWeb.pdb
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csc.exe
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csc.exe.config
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csc.rsp
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csi.exe
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csi.exe.config
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csi.rsp
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.AppContext.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Console.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.Pipes.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Claims.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\vbc.exe
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\vbc.exe.config
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\vbc.rsp
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Antlr3.Runtime.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\EntityFramework.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Negocio.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Newtonsoft.Json.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\System.Web.Optimization.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\WebGrease.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\AccesoDatos.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Dominio.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Negocio.pdb
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\EntityFramework.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\System.Web.Optimization.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Newtonsoft.Json.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Antlr3.Runtime.pdb
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\AccesoDatos.pdb
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\AccesoDatos.dll.config
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Dominio.pdb
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.csprojAssemblyReference.cache
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.csproj.CoreCompileInputs.cache
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.csproj.CopyComplete
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.pdb
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\PresentacionWeb.dll.config
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\PresentacionWeb.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\PresentacionWeb.pdb
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csc.exe
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csc.exe.config
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csc.rsp
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csi.exe
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csi.exe.config
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\csi.rsp
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.AppContext.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Console.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.IO.Pipes.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Claims.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\vbc.exe
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\vbc.exe.config
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\vbc.rsp
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Antlr3.Runtime.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\EntityFramework.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Negocio.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Newtonsoft.Json.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\System.Web.Optimization.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\WebGrease.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\AccesoDatos.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Dominio.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Negocio.pdb
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\EntityFramework.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\System.Web.Optimization.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Newtonsoft.Json.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Antlr3.Runtime.pdb
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\AccesoDatos.pdb
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\AccesoDatos.dll.config
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\Dominio.pdb
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.csprojAssemblyReference.cache
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.csproj.CoreCompileInputs.cache
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.csproj.CopyComplete
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.dll
+C:\Users\UTNfr\Downloads\TP_WEB_MERCADO_GONZALEZ-master\PresentacionWeb\obj\Debug\PresentacionWeb.pdb
