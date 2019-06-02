@@ -10,9 +10,13 @@ namespace AccesoDatos
     public class SorteoDTO
     {
         public int IdSorteo { get; set; }
-        public PremioDTO Premio { get; set; }
-        public ClientesDTO Cliente { get; set; }
-        public VoucherDTO Voucher { get; set; }
+
+        public Cliente Cliente { get; set; }
+        public Premio Premio { get; set; }
+        public Voucher Voucher { get; set; }
+        public int IdPremio { get; set; }
+        public int Clienteid { get; set; }
+        public int IdVoucher { get; set; }
 
         private ModelContexto db = new ModelContexto();
 
@@ -20,24 +24,24 @@ namespace AccesoDatos
         public int addSorteo()
         {
             Sorteo sorteo = new Sorteo();
-            sorteo.Premio.IdPremio = this.Premio.IdPremio;
-            sorteo.Cliente.Clienteid = this.Cliente.Clienteid;
-            sorteo.Voucher.IdVoucher = this.Voucher.IdVoucher;
+            sorteo.IdPremio = this.IdPremio;
+            sorteo.Clienteid = this.Clienteid;
+            sorteo.IdVoucher = this.IdVoucher;
             using (db)
             {
                 db.Sorteo.Add(sorteo);
                 db.SaveChanges();
                 var query = from dir in db.Sorteo
                             orderby dir.IdSorteo descending
-                            where  dir.Premio.IdPremio == sorteo.Premio.IdPremio
-                            && dir.Cliente.Clienteid == sorteo.Cliente.Clienteid
-                            && dir.Voucher.IdVoucher == sorteo.Voucher.IdVoucher
+                            where  dir.IdPremio == sorteo.IdPremio
+                            && dir.Clienteid == sorteo.Clienteid
+                            && dir.IdVoucher == sorteo.IdVoucher
                             select dir;
                 sorteo = query.FirstOrDefault<Sorteo>();
 
-                if ( sorteo.Premio.IdPremio == this.Premio.IdPremio
-                    && sorteo.Cliente.Clienteid == this.Cliente.Clienteid
-                    && sorteo.Voucher.IdVoucher == this.Voucher.IdVoucher)
+                if ( sorteo.IdPremio == this.IdPremio
+                    && sorteo.Clienteid == this.Clienteid
+                    && sorteo.IdVoucher == this.IdVoucher)
                 {
                     return sorteo.IdSorteo;
                 }

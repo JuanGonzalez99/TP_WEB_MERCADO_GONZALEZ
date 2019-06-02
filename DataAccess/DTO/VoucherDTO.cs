@@ -48,6 +48,36 @@ namespace AccesoDatos
             return 2;
         }
 
+        public int GetVoucherById()
+        {
+            using (db)
+            {
+                var query = from Voucher in db.Voucher select Voucher;
+                List<Voucher> voucher = query.ToList<Voucher>();
+                foreach (var foo in voucher)
+                {
+                    if (foo.IdVoucher == this.IdVoucher)
+                    {
+                        this.IdVoucher = foo.IdVoucher;
+                        this.CodigoPromocional = foo.CodigoPromocional;
+                        this.Estado = foo.Estado;
+                        if (this.Estado == false)
+                        {
+                            return 0;
+                        }
+                        else
+                        {
+                            return 1;
+                        }
+                    }
+                }
+            }
+            IdVoucher = 0;
+            CodigoPromocional = "0";
+            Estado = false;
+            return 2;
+        }
+
         //Cambia a Usado el Voucher retorna true si el cambio fue correto
         //retorna false si hubo error en el cambio
         public bool ChangeStatus() {
@@ -55,7 +85,7 @@ namespace AccesoDatos
             voucher.IdVoucher = this.IdVoucher;
             voucher.CodigoPromocional = this.CodigoPromocional;
             voucher.Estado = true;
-            using ( db)
+            using (db)
             {
                 db.Voucher.Attach(voucher);
                 db.Entry(voucher).Property("Estado").IsModified = true;

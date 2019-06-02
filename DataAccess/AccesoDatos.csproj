@@ -52,9 +52,9 @@
   <ItemGroup>
     <Compile Include="DTO\ClienteDTO.cs" />
     <Compile Include="DTO\VoucherDTO.cs" />
-    <Compile Include="Migrations\201905270151046_web.cs" />
-    <Compile Include="Migrations\201905270151046_web.Designer.cs">
-      <DependentUpon>201905270151046_web.cs</DependentUpon>
+    <Compile Include="Migrations\201905312332056_web.cs" />
+    <Compile Include="Migrations\201905312332056_web.Designer.cs">
+      <DependentUpon>201905312332056_web.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelContexto.cs" />
@@ -75,9 +75,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201905270151046_web.resx">
-      <DependentUpon>201905270151046_web.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201905312332056_web.resx">
+      <DependentUpon>201905312332056_web.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Script_DB\Mercado_Gonzalez_TP3.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

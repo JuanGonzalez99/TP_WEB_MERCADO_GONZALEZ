@@ -22,18 +22,22 @@ namespace Negocio
         {
             try
             {
+                Premio = new PremioDTO();
+                Cliente = new ClientesDTO();
+                Voucher = new VoucherDTO();
                 Premio.IdPremio = this.premioid;
                 Cliente.Clienteid = this.clienteid;
                 Voucher.IdVoucher = this.voucherid;
                 
-                
-                if ((Premio.GetPremioByID()) && (Cliente.GetClientByID()) && (Voucher.GetVoucherByCode()==0))
+                if (Premio.GetPremioByID() && Cliente.GetClientByID() && (Voucher.GetVoucherById()==0))
                 {
                     SorteoDTO sorteo = new SorteoDTO();
-                    sorteo.Cliente = this.Cliente;
-                    sorteo.Premio = this.Premio;
-                    sorteo.Voucher = this.Voucher;
+                    sorteo.Clienteid = this.clienteid;
+                    sorteo.IdPremio = this.premioid;
+                    sorteo.IdVoucher = this.voucherid;
+
                     this.IdSorteo = sorteo.addSorteo();
+
                     if (this.IdSorteo != -1)
                     {
                         return IdSorteo;
@@ -42,10 +46,8 @@ namespace Negocio
             }
             catch (Exception ex)
             {
-
                 return -1;
             }
-
 
             return -1;
         }

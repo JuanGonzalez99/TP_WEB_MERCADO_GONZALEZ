@@ -16,7 +16,7 @@ namespace Dominio
 
         [Required]
         [MaxLength(100)]
-        public string CodigoPromocional { get; set; } // Se genera Fecha+horaMinutosSegundos+IdVoucher
+        public string CodigoPromocional { get; set; }
         
         public bool Estado { get; set; } // 1 = usado
     }

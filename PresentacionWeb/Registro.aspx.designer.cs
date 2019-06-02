@@ -13,6 +13,15 @@ namespace PresentacionWeb {
     public partial class Registro {
         
         /// <summary>
+        /// Control titulo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl titulo;
+        
+        /// <summary>
         /// Control textDNI.
         /// </summary>
         /// <remarks>
@@ -20,6 +29,15 @@ namespace PresentacionWeb {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox textDNI;
+        
+        /// <summary>
+        /// Control lblNombre.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblNombre;
         
         /// <summary>
         /// Control textNombre.
@@ -31,6 +49,15 @@ namespace PresentacionWeb {
         protected global::System.Web.UI.WebControls.TextBox textNombre;
         
         /// <summary>
+        /// Control lblApellido.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblApellido;
+        
+        /// <summary>
         /// Control textApellido.
         /// </summary>
         /// <remarks>
@@ -38,6 +65,15 @@ namespace PresentacionWeb {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox textApellido;
+        
+        /// <summary>
+        /// Control lblLocalidad.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblLocalidad;
         
         /// <summary>
         /// Control textLocalidad.
@@ -49,6 +85,15 @@ namespace PresentacionWeb {
         protected global::System.Web.UI.WebControls.TextBox textLocalidad;
         
         /// <summary>
+        /// Control lblProvincia.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblProvincia;
+        
+        /// <summary>
         /// Control textProvincia.
         /// </summary>
         /// <remarks>
@@ -58,6 +103,15 @@ namespace PresentacionWeb {
         protected global::System.Web.UI.WebControls.TextBox textProvincia;
         
         /// <summary>
+        /// Control lblDireccion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblDireccion;
+        
+        /// <summary>
         /// Control textDireccion.
         /// </summary>
         /// <remarks>
@@ -65,6 +119,15 @@ namespace PresentacionWeb {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox textDireccion;
+        
+        /// <summary>
+        /// Control lblEmail.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblEmail;
         
         /// <summary>
         /// Control textEmail.

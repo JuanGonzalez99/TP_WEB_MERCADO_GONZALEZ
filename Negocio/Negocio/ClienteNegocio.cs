@@ -16,7 +16,7 @@ namespace Negocio
         public string Localidad { get; set; }
         public string Provincia { get; set; }
         public string Direccion { get; set; }
-        public string email { get; set; }
+        public string Email { get; set; }
         
         // Retorna true si el cliente existe y lo carga en el objeto
         // Retorna False si no existe el cliente
@@ -34,7 +34,7 @@ namespace Negocio
                     this.Localidad = clientedto.Localidad;
                     this.Provincia = clientedto.Provincia;
                     this.Direccion = clientedto.Direccion;
-                    this.email = clientedto.Email;
+                    this.Email = clientedto.Email;
                     return true;
                 }
 
@@ -50,27 +50,25 @@ namespace Negocio
         // Devuelve ClienteId si fue cargado correctamente caso contrario -1
         public int AgregaCliente()
         {
-                if (Nombre != "" && Apellido != "" && Documento !="" && Localidad != ""
-                    && Provincia != "" && Direccion != "" && email!= "")
-                {
-                    System.Console.WriteLine("Verifique para cargar datos");
-                    ClientesDTO clientedto = new ClientesDTO();
+            if (Nombre != "" && Apellido != "" && Documento !="" && Localidad != ""
+                && Provincia != "" && Direccion != "" && Email!= "")
+            {
+                System.Console.WriteLine("Verifique para cargar datos");
+                ClientesDTO clientedto = new ClientesDTO();
                 clientedto.Nombre = this.Nombre;
                 clientedto.Apellido = this.Apellido;
                 clientedto.Documento = this.Documento;
                 clientedto.Localidad = this.Localidad;
                 clientedto.Provincia = this.Provincia;
                 clientedto.Direccion = this.Direccion;
-                clientedto.Email = this.email;
+                clientedto.Email = this.Email;
                 this.Clienteid=clientedto.addCliente();
-                    System.Console.WriteLine("Resultado de agregado " +this.Clienteid);
-                    if (this.Clienteid != -1)
-                    {
-                        return Clienteid;
-                    }
+                System.Console.WriteLine("Resultado de agregado " +this.Clienteid);
+                if (this.Clienteid != -1)
+                {
+                    return Clienteid;
                 }
-
-
+            }
 
             return -1;
         }

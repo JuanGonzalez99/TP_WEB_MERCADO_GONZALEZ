@@ -18,7 +18,7 @@ namespace AccesoDatos
         public string Direccion { get; set; }
         public string Email { get; set; }
 
-        // Retorna True si existe el cliente y lo carga en el objeto flase si no esta
+        // Retorna True si existe el cliente y lo carga en el objeto false si no esta
         public bool GetClientByID()
         {
             using (db)

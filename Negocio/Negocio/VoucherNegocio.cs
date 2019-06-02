@@ -19,43 +19,50 @@ namespace Negocio
         // retorna -1 error base o de logica
         public int ValidoCodigo()
         {
-
-            if (this.CodigoPromocional != "")
+            if (this.CodigoPromocional == "")
+                return -1;
+            
+            try
             {
-                try
+                VoucherDTO voucher = new VoucherDTO();
+                voucher.CodigoPromocional = this.CodigoPromocional;
+                int aux = voucher.GetVoucherByCode();
+                if (aux == 0 || aux == 1)
                 {
-                    VoucherDTO voucher = new VoucherDTO();
-                    voucher.CodigoPromocional = this.CodigoPromocional;
-                    int aux = voucher.GetVoucherByCode();
-                    if (aux == 0)
-                    {
-                        this.IdVoucher = voucher.IdVoucher;
-                        this.CodigoPromocional = voucher.CodigoPromocional;
-                        this.Estado = voucher.Estado;
-                        return aux;
-                    }
-                    else if (aux == 1)
-                    {
-                        this.IdVoucher = voucher.IdVoucher;
-                        this.CodigoPromocional = voucher.CodigoPromocional;
-                        this.Estado = voucher.Estado;
-                        return aux;
-                    }
-                    else
-                    {
-                        // No existe codigo
-                        return aux;
-                    }
+                    this.IdVoucher = voucher.IdVoucher;
+                    this.CodigoPromocional = voucher.CodigoPromocional;
+                    this.Estado = voucher.Estado;
                 }
-                catch (Exception ex)
-                {
-                    return -1;
-                }
+
+                return aux;
             }
-
-
-            return -1;
+            catch (Exception ex)
+            {
+                return -1;
+            }            
         }
 
+        public bool CambiarEstado()
+        {
+            if (this.CodigoPromocional == "" || !(this.IdVoucher > 0))
+                return false;
+
+            try
+            {
+                VoucherDTO voucher = new VoucherDTO();
+                voucher.IdVoucher = this.IdVoucher;
+                voucher.CodigoPromocional = this.CodigoPromocional;
+
+                bool aux = voucher.ChangeStatus();
+
+                this.Estado = voucher.Estado;
+
+                return aux;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
     }
 }

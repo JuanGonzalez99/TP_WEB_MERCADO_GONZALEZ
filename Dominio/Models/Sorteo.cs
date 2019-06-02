@@ -14,10 +14,16 @@ namespace Dominio
         [Key]
         public int IdSorteo { get; set; }
 
+        [Required]
+        public int IdPremio { get; set; }
         public Premio Premio { get; set; }
 
+        [Required]
+        public int Clienteid { get; set; }
         public Cliente Cliente { get; set; }
 
+        [Required]
+        public int IdVoucher { get; set; }
         public Voucher Voucher { get; set; }
        
     }

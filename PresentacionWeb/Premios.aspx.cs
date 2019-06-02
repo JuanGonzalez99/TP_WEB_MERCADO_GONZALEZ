@@ -41,9 +41,10 @@ namespace PresentacionWeb
                 aImageButton[i].Width = 300;
                 aImageButton[i].Height = 300;
                 aImageButton[i].BorderWidth = 5;
-                aImageButton[i].Click += new ImageClickEventHandler(imageButton_Click);
-                aImageButton[i].CommandArgument = foo.IdPremio.ToString();
                 aImageButton[i].BorderColor = DefaultColor;
+                aImageButton[i].Click += new ImageClickEventHandler(imageButton_Click);
+                aImageButton[i].ToolTip = foo.Descripcion;
+                aImageButton[i].CommandArgument = foo.IdPremio.ToString();
                 aImageButton[i].ImageUrl = foo.URL;
                 aImageButton[i].AlternateText = foo.Descripcion;
                 aImageButton[i].Visible = true;
@@ -60,6 +61,7 @@ namespace PresentacionWeb
                 {
                     Panel1.Controls.Add(new LiteralControl("<span> </span>"));
                 }
+
                 i++;
             }
 

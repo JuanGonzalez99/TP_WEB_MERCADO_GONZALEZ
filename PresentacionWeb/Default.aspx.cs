@@ -12,34 +12,40 @@ namespace PresentacionWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void btnSiguiente_Click(object sender, EventArgs e)
         {
-            //VoucherNegocio v = new VoucherNegocio();
-            //v.GetVoucherByCode(txtVoucher.Text);
-            //Validar voucher
             VoucherNegocio voucher = new VoucherNegocio();
             voucher.CodigoPromocional = txtVoucher.Text;
 
-            int aux = voucher.ValidoCodigo();
-            if (aux == 0)
+            try
             {
-                Session.Add("voucher", voucher);
-                Response.Redirect("~/Premios.aspx");
-            }
-            else
-            {
-                string errorText = "";
-                if (aux == 1)
-                    errorText = "Voucher ya fue utilizado";
-                else if (aux == 2)
-                    errorText = "Voucher no válido para esta promoción";
+                int aux = voucher.ValidoCodigo();
+                if (aux == 0)
+                {
+                    Session.Add("voucher", voucher);
+                    Response.Redirect("~/Premios.aspx");
+                }
                 else
-                    errorText = "Ha habido un error. Intente nuevemente en unos minutos";
+                {
+                    string errorText = "";
+                    if (aux == 1)
+                        errorText = "El voucher ya fue utilizado";
+                    else if (aux == 2)
+                        errorText = "Voucher no válido para esta promoción";
+                    else
+                        errorText = "Ha habido un error. Intente nuevemente en unos minutos";
 
-                ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + errorText + "');", true);
+                    ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + errorText + "');", true);
+                }
+            }
+            catch (Exception ex)
+            {
+                ClientScript.RegisterStartupScript(this.GetType(), "myalert",
+                    "alert('" + "Ha habido un error. Intente en unos minutos nuevamente." + "');", true);
+                Response.Write("<script>console.log('" + ex.Message + "');</script>");
             }
         }
     }
