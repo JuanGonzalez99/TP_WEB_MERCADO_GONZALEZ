@@ -21,12 +21,12 @@
                       <asp:TextBox ID="textApellido" CssClass="form-control form-control" runat="server" placeholder="Ingrese apellido"/>
         </div><br>
         <div class="input-group">
-                    <span id="lblLocalidad" runat="server" class="input-group-addon">Localidad</span>
-                      <asp:TextBox ID="textLocalidad" CssClass="form-control form-control" runat="server" placeholder="Ingrese localidad"/>
-        </div><br>
-        <div class="input-group">
                     <span id="lblProvincia" runat="server" class="input-group-addon">Provincia</span>
                       <asp:TextBox ID="textProvincia" CssClass="form-control form-control" runat="server" placeholder="Ingrese provincia"/>
+        </div><br>
+        <div class="input-group">
+                    <span id="lblLocalidad" runat="server" class="input-group-addon">Localidad</span>
+                      <asp:TextBox ID="textLocalidad" CssClass="form-control form-control" runat="server" placeholder="Ingrese localidad"/>
         </div><br>
         <div class="input-group">
                     <span id="lblDireccion" runat="server" class="input-group-addon">Direccion</span>
@@ -43,6 +43,28 @@
     </div>
 
     </div>
+
+    <div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <asp:UpdatePanel ID="upModal" runat="server" ChildrenAsTriggers="false" UpdateMode="Conditional">
+                <ContentTemplate>
+                    <div class="modal-content">
+                        <div class="modal-header" style="background-color:midnightblue; color:white">
+                            <button type="button" style="color:white" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title"><asp:Label ID="lblModalTitle" runat="server" Text=""></asp:Label></h4>
+                        </div>
+                        <div class="modal-body">
+                            <asp:Label ID="lblModalBody" runat="server" Text=""></asp:Label>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+                        </div>
+                    </div>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+        </div>
+    </div>
+
 </asp:Content>
 
 

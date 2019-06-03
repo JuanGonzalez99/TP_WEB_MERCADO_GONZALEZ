@@ -12,13 +12,22 @@ namespace PresentacionWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            if (Session["sorteo"] != null)
+            {
+                Session.Remove("sorteo");
+            }
         }
 
         protected void btnSiguiente_Click(object sender, EventArgs e)
         {
             VoucherNegocio voucher = new VoucherNegocio();
             voucher.CodigoPromocional = txtVoucher.Text;
+
+            if (voucher.CodigoPromocional == "")
+            {
+                CrearModal("Atención", "Debe ingresar un código para continuar.");
+                return;
+            }
 
             try
             {
@@ -30,23 +39,39 @@ namespace PresentacionWeb
                 }
                 else
                 {
-                    string errorText = "";
+                    string errorText, errorTitle = "";
                     if (aux == 1)
-                        errorText = "El voucher ya fue utilizado";
+                    {
+                        errorTitle = "Atención";
+                        errorText = "El código ya fue utilizado.";
+                    }
                     else if (aux == 2)
-                        errorText = "Voucher no válido para esta promoción";
+                    {
+                        errorTitle = "Atención";
+                        errorText = "Código no válido para esta promoción.";
+                    }
                     else
-                        errorText = "Ha habido un error. Intente nuevemente en unos minutos";
+                    {
+                        errorTitle = "Error";
+                        errorText = "Ha habido un error. Intente nuevemente en unos minutos.";
+                    }
 
-                    ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + errorText + "');", true);
+                    CrearModal(errorTitle, errorText);
                 }
             }
             catch (Exception ex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "myalert",
-                    "alert('" + "Ha habido un error. Intente en unos minutos nuevamente." + "');", true);
+                CrearModal("Error", "Ha habido un error. Intente en unos minutos nuevamente.");
                 Response.Write("<script>console.log('" + ex.Message + "');</script>");
             }
+        }
+
+        private void CrearModal(string Titulo, string Mensaje)
+        {
+            lblModalTitle.Text = Titulo;
+            lblModalBody.Text = Mensaje;
+            ScriptManager.RegisterStartupScript(Page, Page.GetType(), "myModal", "$('#myModal').modal();", true);
+            upModal.Update();
         }
     }
 }

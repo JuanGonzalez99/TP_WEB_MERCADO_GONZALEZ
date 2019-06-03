@@ -6,11 +6,15 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Negocio;
 using System.Net.Mail;
+using System.Text.RegularExpressions;
+using System.Globalization;
 
 namespace PresentacionWeb
 {
     public partial class Registro : System.Web.UI.Page
     {
+        private bool Validar { get; set; }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["voucher"] == null || Session["premio"] == null)
@@ -20,6 +24,7 @@ namespace PresentacionWeb
             }
 
             vistaBuscar();
+            Validar = false;
         }
 
         protected void BtnParticipar_Click(object sender, EventArgs e)
@@ -29,8 +34,7 @@ namespace PresentacionWeb
 
             if (cliente.Documento == "")
             {
-                ClientScript.RegisterStartupScript(this.GetType(),
-                    "myalert", "alert('Por favor, ingrese su DNI.');", true);
+                CrearModal("Atención", "Por favor, ingrese su DNI sin puntos ni espacios");
                 return;
             }
 
@@ -39,14 +43,27 @@ namespace PresentacionWeb
                 //Valida el formato del documento
                 int.Parse(cliente.Documento);
 
-                if (textNombre.Text == "")
+
+                if (!Validar && textNombre.Text == "")
                 {
                     bool cargar = cliente.ValidaClienteDNI();
                     vistaParticipar(cargar, cliente);
+                    Validar = true;
                     return;
                 }
 
                 vistaParticipar(false, null);
+
+                if (camposVacios())
+                {
+                    CrearModal("Atención", "Por favor, complete todos los campos.");
+                    return;
+                }
+                if (!mailValido(textEmail.Text))
+                {
+                    CrearModal("Atención", "Formato de mail inválido.");
+                    return;
+                }
                 
                 if (!cliente.ValidaClienteDNI())
                 {
@@ -61,9 +78,8 @@ namespace PresentacionWeb
 
                     if (cliente.Clienteid == -1)
                     {
-                        ClientScript.RegisterStartupScript(this.GetType(), "myalert",
-                            "alert('Ha ocurrido un error al cargar sus datos. Por favor, intente nuevamente en unos minutos ');",
-                            true);
+                        CrearModal("Error",
+                            "Ha ocurrido un error al cargar sus datos. Por favor, intente nuevamente en unos minutos");
                         return;
                     }
                 }
@@ -83,29 +99,33 @@ namespace PresentacionWeb
                 if (rsorteo != -1)
                 {
                     voucher.CambiarEstado();
-                    envioMail(cliente);
-
-                    mensaje = "Gracias por participar de nuestro sorteo! Participación N°: " + rsorteo;
 
                     Session.Remove("voucher");
                     Session.Remove("premio");
 
-                    Response.Write("<script language='javascript'>window.alert('"+ mensaje + "');window.location='Default.aspx';</script>");
+                    envioMail(cliente);
+
+                    Session.Add("sorteo", rsorteo);
+
+                    Response.Redirect("~/Final.aspx");
                 }
                 else
                 {
-                    mensaje = "Error al registrar sorteo. Intenta en unos minutos nuevamente.";
-                    ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + mensaje + "');", true);
+                    mensaje = "Error al registrar sorteo. Intente en unos minutos nuevamente.";
+                    CrearModal("Error", mensaje);
                 }
             }
             catch (FormatException)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + "Formato de DNI no válido." + "');", true);
+                CrearModal("Atención", "Formato de DNI no válido. Por favor, ingrese su documento sin puntos ni espacios");
+            }
+            catch (OverflowException)
+            {
+                CrearModal("Atención", "DNI demasiado largo, intente nuevamente");
             }
             catch (Exception ex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "myalert",
-                    "alert('" + "Ha habido un error. Intente en unos minutos nuevamente." + "');", true);
+                CrearModal("Error", "Ha habido un error. Intente en unos minutos nuevamente.");
                 Response.Write("<script>console.log('" + ex.Message + "');</script>");
             }
         }
@@ -118,15 +138,15 @@ namespace PresentacionWeb
 
             textNombre.Visible = false;
             textApellido.Visible = false;
-            textLocalidad.Visible = false;
             textProvincia.Visible = false;
+            textLocalidad.Visible = false;
             textDireccion.Visible = false;
             textEmail.Visible = false;
 
             lblNombre.Visible = false;
             lblApellido.Visible = false;
-            lblLocalidad.Visible = false;
             lblProvincia.Visible = false;
+            lblLocalidad.Visible = false;
             lblDireccion.Visible = false;
             lblEmail.Visible = false;
 
@@ -141,15 +161,15 @@ namespace PresentacionWeb
 
             textNombre.Visible = true;
             textApellido.Visible = true;
-            textLocalidad.Visible = true;
             textProvincia.Visible = true;
+            textLocalidad.Visible = true;
             textDireccion.Visible = true;
             textEmail.Visible = true;
 
             lblNombre.Visible = true;
             lblApellido.Visible = true;
-            lblLocalidad.Visible = true;
             lblProvincia.Visible = true;
+            lblLocalidad.Visible = true;
             lblDireccion.Visible = true;
             lblEmail.Visible = true;
 
@@ -179,10 +199,77 @@ namespace PresentacionWeb
 
             mail.Subject = "Super Sorteo";
             mail.Body = "Gracias por participar de nuestro sorteo, " + cliente.Nombre + Environment.NewLine +
-                "Si resulta ganador le enviaremos un mail con las instrucciones para retirar su premio." + Environment.NewLine +
+                "Si resulta ganador, el 30/2/2020 le enviaremos un mail con las instrucciones para retirar su premio." + Environment.NewLine +
                 "Atte, " + Environment.NewLine +
                 "Mercado y Gonzalez.";
             //client.Send(mail);
+        }
+
+        private bool camposVacios()
+        {
+            if (textNombre.Text == "" ||
+            textApellido.Text == "" ||
+            textProvincia.Text == "" ||
+            textLocalidad.Text == "" ||
+            textDireccion.Text == "" ||
+            textEmail.Text == "")
+                return true;
+
+            else
+                return false;
+        }
+
+        private bool mailValido(string email)
+        {
+            if (string.IsNullOrWhiteSpace(email))
+                return false;
+            
+            try
+            {
+                // Normalize the domain
+                email = Regex.Replace(email, @"(@)(.+)$", DomainMapper,
+                                        RegexOptions.None, TimeSpan.FromMilliseconds(200));
+
+                // Examines the domain part of the email and normalizes it.
+                string DomainMapper(Match match)
+                {
+                    // Use IdnMapping class to convert Unicode domain names.
+                    var idn = new IdnMapping();
+
+                    // Pull out and process domain name (throws ArgumentException on invalid)
+                    var domainName = idn.GetAscii(match.Groups[2].Value);
+
+                    return match.Groups[1].Value + domainName;
+                }
+            }
+            catch (RegexMatchTimeoutException e)
+            {
+                return false;
+            }
+            catch (ArgumentException e)
+            {
+                return false;
+            }
+
+            try
+            {
+                return Regex.IsMatch(email,
+                    @"^(?("")("".+?(?<!\\)""@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-z])@))" +
+                    @"(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-z][-0-9a-z]*[0-9a-z]*\.)+[a-z0-9][\-a-z0-9]{0,22}[a-z0-9]))$",
+                    RegexOptions.IgnoreCase, TimeSpan.FromMilliseconds(250));
+            }
+            catch (RegexMatchTimeoutException)
+            {
+                return false;
+            }
+        }
+        
+        private void CrearModal(string Titulo, string Mensaje)
+        {
+            lblModalTitle.Text = Titulo;
+            lblModalBody.Text = Mensaje;
+            ScriptManager.RegisterStartupScript(Page, Page.GetType(), "myModal", "$('#myModal').modal();", true);
+            upModal.Update();
         }
     }
 }

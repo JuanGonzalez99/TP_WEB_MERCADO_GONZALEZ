@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.Services;
@@ -15,8 +16,8 @@ namespace PresentacionWeb
         private List<ImageButton> auxList { get; set; }
 
         //Colores de los bordes para indicar si un premio está seleccionado o no
-        private System.Drawing.Color DefaultColor { get { return System.Drawing.Color.DarkGray; } }
-        private System.Drawing.Color SelectedColor { get { return System.Drawing.Color.BlueViolet; } }
+        private Color DefaultColor { get { return Color.DarkGray; } }
+        private Color SelectedColor { get { return Color.BlueViolet; } }
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -28,8 +29,8 @@ namespace PresentacionWeb
 
             PremioNegocio premio = new PremioNegocio();
             List<PremioNegocio> listpremios = new List<PremioNegocio>();
+
             listpremios = premio.GetPremios();
-            // Premios Dinamicos
             List<ImageButton> aImageButton = new List<ImageButton>();
             Panel1.Visible = true;
 
@@ -51,8 +52,7 @@ namespace PresentacionWeb
 
                 Panel1.Controls.Add(aImageButton[i]);
 
-                // Coloca 2 imagenes una alado de la otra y mete un salto de linea
-                // para la siguientes 
+                // Coloca cada par de imagenes una al lado de la otra y mete un salto de linea para las siguientes 
                 if ((i + 1) % 2 == 0)
                 {
                     Panel1.Controls.Add(new LiteralControl("<br />"));
@@ -73,7 +73,7 @@ namespace PresentacionWeb
             //Si no hay ningún premio seleccionado (valido con el color del borde), tiro error
             if (!auxList.Exists(x => x.BorderColor == SelectedColor))
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('"+"Debe seleccionar un premio para continuar."+"');", true);
+                CrearModal("Atención", "Debe seleccionar un premio para continuar.");
                 return;
             }
 
@@ -95,5 +95,12 @@ namespace PresentacionWeb
             }
         }
 
+        private void CrearModal(string Titulo, string Mensaje)
+        {
+            lblModalTitle.Text = Titulo;
+            lblModalBody.Text = Mensaje;
+            ScriptManager.RegisterStartupScript(Page, Page.GetType(), "myModal", "$('#myModal').modal();", true);
+            upModal.Update();
+        }
     }
 }
